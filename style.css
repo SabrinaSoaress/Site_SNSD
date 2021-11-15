@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center{
+    display: flex ;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.header{
+    padding: 20px 0;
+    height: 200px;
+}
+
+.menu{
+    width: 80%;
+    text-align: right;
+    padding-top: 45px;
+}
+.menu a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 15px;
+}
+html.body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+section.sobre{
+    position: relative;
+    height: calc(100% - 200px);
+}
+.extras{
+    border-radius: 100% 0% 0% 0%;
+    position:absolute;
+    bottom: -5.9em;
+    right: 0;
+    width: 450px;
+    height: 450px;
+    background-color:rgb(247, 12, 122);
+}
+.extras img{
+    position: absolute;
+    right: 500px;
+    top: 200px;
+}
+.social-media{
+    position: absolute;
+    left: 1280px;
+    top: 20%;
+}
+.social-media img{
+   width: 50px;
+   margin: 15px;
+   display: block;
+}
+.texto-sobre{
+    margin-top: 100px;
+}
+.texto-sobre h1{
+    font-size: 40px;
+}
+.texto-sobre p{
+    margin:50px;
+    color:black;
+    font-size: 20px;
+    font-weight:bolder;
+    max-width: 600px;
+}
+.texto-sobre button{
+    border: 0;
+    background-color: rgb(255, 131, 207);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+.snsd{
+    width: 130px;
+}
+.meninas{
+    width: 450px;
+    position: absolute;
+    left: 65%;
+    top: 68%;
+}
+.audio{
+    width: 1%;
+}
